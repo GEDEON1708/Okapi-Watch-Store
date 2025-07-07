@@ -61,11 +61,11 @@ header nav ul li:hover::after {
     width: 100%;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -206,7 +206,6 @@ nav ul li a {
 
 .btn:hover {
     background: linear-gradient(45deg, #00f7ff, #0066ff);
-    box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
 }
 
 .arrows {
@@ -297,7 +296,7 @@ nav ul li a {
     }
 
     nav ul li a {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .container::before {
